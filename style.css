@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+  font-family: sans-serif;
+  text-align: center;
+  /* font-size: 62.5%; */
+  background-color: #072a30;
+  line-height: 1.5;
+}
+
+.upper-menu {
+  background-color: #222;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 16px;
+}
+
+.flags {
+  cursor: pointer;
+  height: 25px;
+  display: flex;
+  gap: 6px;
+}
+
+h1 {
+  margin-top: 2.4rem;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  margin-bottom: 2.4rem;
+}
+
+.column-container {
+  display: flex;
+  justify-content: center;
+  gap: 2.4rem;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  padding: 16px;
+}
+
+.column-1,
+.column-2,
+.column-3,
+.column-4 {
+  width: 340px;
+  /* height: auto; */
+  box-shadow: 0px 2px 20px 2px #000;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 40px;
+  background-color: #302040;
+}
+
+.column-2 {
+  background-color: #181880;
+}
+
+.column-3 {
+  background-color: #095b6a;
+}
+
+.column-4 {
+  background-color: #17792f;
+}
+
+.hidden {
+  display: none;
+}
+
+.default-btn {
+  width: 100%;
+  color: #999;
+  font-size: 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.5s;
+  background-color: rgba(32, 116, 155, 0);
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: 1px solid #999;
+}
+
+.default-btn img {
+  height: 16px;
+}
+
+.default-btn:hover,
+.login-btn:hover,
+.logout-btn:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+button:active {
+  transform: translate(1px, 1px);
+}
+
+.column-1:hover,
+.column-2:hover,
+.column-3:hover,
+.column-4:hover {
+  transition: all 0.5s;
+  backdrop-filter: blur(20px);
+  background-color: #3c2850;
+}
+
+.column-2:hover {
+  background-color: #1e1ea0;
+}
+
+.column-3:hover {
+  background-color: #0b7285;
+}
+
+.column-4:hover {
+  background-color: #1d973b;
+}
+
+.overlay {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.758);
+  transition: all 0.2s;
+  backdrop-filter: blur(30px);
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.author {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #fff;
+}
+
+.secret-btn {
+  position: absolute;
+  left: 0;
+  width: 24px;
+  height: 24px;
+  opacity: 0;
+}
+
+.secret-btn:checked {
+  opacity: 1;
+}
+
+ion-icon {
+  color: #fff;
+}
+
+footer {
+  position: relative;
+  font-size: 12px;
+  padding: 16px;
+}
+
+@media (max-width: 420px) {
+  .date-display {
+    font-size: 14px;
+  }
+
+  h1 {
+    margin-top: 16px;
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 28px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+}
