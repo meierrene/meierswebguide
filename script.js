@@ -1,14 +1,17 @@
-import * as config from './config.js';
+const year = document.querySelector('.year');
+const column3 = document.querySelector('.column-3');
+const column4 = document.querySelector('.column-4');
+const secretBtn = document.querySelector('.secret-btn');
 
-config.secretBtn.addEventListener('click', () => {
-  if (config.secretBtn.checked) {
-    config.column3.classList.remove('hidden');
-    config.column4.classList.remove('hidden');
+secretBtn.addEventListener('click', () => {
+  if (secretBtn.checked) {
+    column3.classList.remove('hidden');
+    column4.classList.remove('hidden');
   } else {
-    config.column3.classList.add('hidden');
-    config.column4.classList.add('hidden');
+    column3.classList.add('hidden');
+    column4.classList.add('hidden');
   }
 });
 
-const update = () => (config.year.textContent = new Date().getFullYear());
+const update = () => (year.textContent = new Date().getFullYear());
 update();
