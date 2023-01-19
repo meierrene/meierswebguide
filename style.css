@@ -61,7 +61,7 @@ h2 {
   border-radius: 5px;
   padding: 20px;
   margin-bottom: 40px;
-  background-color: #302040;
+  background-color: #231033;
 }
 
 .column-2 {
@@ -69,11 +69,11 @@ h2 {
 }
 
 .column-3 {
-  background-color: #095b6a;
+  background-color: #005a7e;
 }
 
 .column-4 {
-  background-color: #17792f;
+  background-color: #4c2448;
 }
 
 .hidden {
@@ -115,7 +115,7 @@ button:active {
 .column-4:hover {
   transition: all 0.5s;
   backdrop-filter: blur(20px);
-  background-color: #3c2850;
+  background-color: #2c1440;
 }
 
 .column-2:hover {
@@ -123,11 +123,11 @@ button:active {
 }
 
 .column-3:hover {
-  background-color: #0b7285;
+  background-color: #006790;
 }
 
 .column-4:hover {
-  background-color: #1d973b;
+  background-color: #663060;
 }
 
 .overlay {
