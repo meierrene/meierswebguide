@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^portfolio.renemeier.io$ [OR]
+RewriteCond %{HTTP_HOST} ^www.portfolio.renemeier.io$
+RewriteRule ^(.*)$ http://renemeier.io/portfolio
