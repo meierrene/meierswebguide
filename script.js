@@ -15,3 +15,5 @@ secretBtn.addEventListener('click', () => {
 
 const update = () => (year.textContent = new Date().getFullYear());
 update();
+
+console.log('3' == 3);
