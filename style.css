@@ -39,7 +39,6 @@ h2 {
 .column-2,
 .column-3,
 .column-4 {
-  /* width: 340px; */
   width: 22rem;
   box-shadow: 0px 2px 20px 2px #000;
   border-radius: 0.5rem;
