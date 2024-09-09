@@ -27,6 +27,7 @@ h2 {
 }
 
 .column-container {
+  margin: 1.2rem 0;
   display: flex;
   justify-content: center;
   gap: 2.4rem;
