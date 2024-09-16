@@ -8,11 +8,11 @@ secretBtn.addEventListener('click', () => {
   if (secretBtn.checked) {
     column2.classList.remove('hidden');
     column3.classList.remove('hidden');
-    column4.classList.remove('hidden');
+    // column4.classList.remove('hidden');
   } else {
     column2.classList.add('hidden');
     column3.classList.add('hidden');
-    column4.classList.add('hidden');
+    // column4.classList.add('hidden');
   }
 });
 
