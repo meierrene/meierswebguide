@@ -55,9 +55,10 @@ meierswebguide/
 
 ## Author
 
-René Meier
+### René Meier
 
 - [GitHub](https://github.com/meierrene)
 - [Portfolio](https://portfolio.renemeier.info/)
 - [LinkedIn](https://www.linkedin.com/in/renemeierdev/)
 - [Instagram](https://www.instagram.com/renemeier.de/)
+- [Steam](https://steamcommunity.com/profiles/76561198223067764/)
