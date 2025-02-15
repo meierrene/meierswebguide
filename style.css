@@ -184,8 +184,7 @@ ion-icon {
 footer {
   position: relative;
   font-size: 0.8rem;
-  padding: 1rem;
-  padding-bottom: 4.8rem;
+  padding-bottom: 4rem;
 }
 
 @media (max-width: 420px) {
