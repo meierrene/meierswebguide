@@ -151,10 +151,12 @@ button:active {
 }
 
 .secret-btn {
-  position: absolute;
+  position: fixed;
   left: 0;
+  bottom: 0;
   width: 24px;
   height: 24px;
+  z-index: 1000;
   opacity: 0;
 }
 
