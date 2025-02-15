@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="src/img/logo.svg" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
@@ -10,15 +11,14 @@
       src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
     ></script>
     <script defer type="module" src="script.js"></script>
-    <title>My Links Guide</title>
+    <title>Meus links</title>
   </head>
-
   <body>
     <main>
-      <h1 class="main-title">My Links Guide</h1>
+      <h1 class="main-title">Meus links</h1>
       <div class="column-container">
         <div class="column-1">
-          <p class="column-1-title">Azul links</p>
+          <h2 class="column-1-title">Links úteis</h2>
           <a href="https://outlook.office.com/mail/">
             <button class="default-btn">Outlook Email</button>
           </a>
@@ -89,7 +89,7 @@
         </div>
 
         <div class="column-2 hidden">
-          <p class="column-2-title">René's links</p>
+          <h2 class="column-2-title">René's links</h2>
           <a href="https://www.gmail.com/">
             <button class="default-btn">
               Gmail <img src="src/img/gmail.png" alt="Gmail" />
@@ -97,8 +97,8 @@
           </a>
           <a href="https://portfolio.renemeier.info/">
             <button class="default-btn">
-              About Me
-              <img src="src/img/myportfolio.png" alt="Rene Meier MyPortfolio" />
+              About
+              <img src="src/img/logo.svg" alt="Rene Meier MyPortfolio" />
             </button>
           </a>
           <a href="https://aerosoft.com/">
@@ -131,7 +131,7 @@
         </div>
 
         <div class="column-3 hidden">
-          <p class="column-3-title">Katia's links</p>
+          <h2 class="column-3-title">Katia's links</h2>
           <a href="https://login.yahoo.com/">
             <button class="default-btn">
               Yahoo! <img src="src/img/yahoo.png" alt="Yahoo" />
@@ -151,10 +151,18 @@
       </div>
       <input type="checkbox" class="secret-btn" />
     </main>
-    <!-- <footer>
-      <span class="footer-text">
-        Copyright &copy; <span class="year"></span> by
-      </span>
+    <script
+      type="text/javascript"
+      src="https://storage.ko-fi.com/cdn/widget/Widget_2.js"
+    ></script>
+    <div class="donation">
+      <script type="text/javascript">
+        kofiwidget2.init('Buy me a Coffee!', '#1D9FCD', 'Z8Z51AMENG');
+        kofiwidget2.draw();
+      </script>
+    </div>
+    <footer>
+      <span class="footer-text"> &copy; <span class="year"></span> by </span>
       <a href="https://github.com/meierrene" class="author">René Meier</a>
       <a href="https://www.linkedin.com/in/renemeierdev/"
         ><ion-icon name="logo-linkedin"></ion-icon
@@ -162,6 +170,6 @@
       <a href="https://www.instagram.com/renemeier.de/"
         ><ion-icon name="logo-instagram"></ion-icon
       ></a>
-    </footer> -->
+    </footer>
   </body>
 </html>
